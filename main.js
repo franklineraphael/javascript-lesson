@@ -220,3 +220,86 @@
 // } else if (age > 6) {
 //   console.log(`no discount`);
 // }
+
+// alert("hello");
+// alert("Good job!");
+// console.log(2 + 2);
+// document.body.innerHTML = "hello";
+// prompt("what is your name");
+// document.body.innerHTML = 2 + 2;
+
+// var Tshirt = 10;
+// var socks = 8;
+// var dinnerPlates = 20;
+
+// // document.body.innerHTML = 10 + 8 + 20;
+// console.log(Tshirt + socks + dinnerPlates);
+
+// document.body.innerHTML = 42.75 + 4.99 + 4.77;
+
+// console.log((2095 + 799) / 100);
+// console.log(math.round(0.9));
+
+// console.log("$" + 2000);
+// document.body.innerHTML = "$" + 20.99;
+// document.body.innerHTML = "$" + (2099 + 4599) / 100;
+
+// alert("items (" + (1 + 1) + "):$" + (2095 + 799) / 100);
+
+// comments can make code redable
+// welcome to 30 daysofjavascript
+// comments can make code readable, easy to reuse and informative
+
+// var firstName = "Frankline";
+// var isMarried = true;
+// var nulll = null;
+// var lastname;
+
+// console.log(typeof lastname);
+// console.log(typeof 5);
+// console.log(typeof null);
+// console.log(typeof true);
+// console.log(typeof undefined);
+
+// var firstName = "frankline";
+// var lastname = "raphael";
+// var maritalStatus = "single";
+// var country = "france";
+// var age = "30";
+// var space = " ";
+// var aboutme =
+//   firstName +
+//   space +
+//   lastname +
+//   space +
+//   maritalStatus +
+//   space +
+//   country +
+//   space +
+//   age;
+// console.log(aboutme);
+
+// const PI = Math.PI;
+// console.log(PI);
+
+// console.log(Math.round(PI));
+// console.log(Math.round(9.81));
+// console.log(Math.floor(9.81));
+// console.log(Math.ceil(9.81));
+// console.log(Math.min(9.81));
+// console.log(Math.min(-5, 3, 20, 4, 5, 10));
+// console.log(Math.max(-5, 3, 20, 4, 5, 10));
+// console.log(Math.random(-5, 3, 20, 4, 5, 10));
+console.log(Math.random()) * 11;
+
+let firstName = "frankline";
+let lastname = "raphael";
+let country = "nigeria";
+let city = "lekki";
+let language = "french";
+let job = "tech guru";
+let age = 40;
+let fullname = firstName + " " + lastname;
+
+let personInfoTwo = `I am ${fullname}. I am ${age}. I am ${country}.`;
+console.log(personInfoTwo);
